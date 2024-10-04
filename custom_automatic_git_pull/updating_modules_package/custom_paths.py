@@ -5,7 +5,6 @@ def repo_paths():
     :return: repo_path
     """
     repo_path = {
-        '13.0': '/home/juanca/QA/Módulos/13.0/',
         '14.0': '/home/juanca/QA/Módulos/14.0/',
         '15.0': '/home/juanca/QA/Módulos/15.0/',
         '16.0': '/home/juanca/QA/Módulos/16.0/',
@@ -22,7 +21,6 @@ def target_paths():
     :return: target_path
     """
     target_path = {
-        '13.0': '/home/juanca/QA/Módulos/Carga_13.0/',
         '14.0': '/home/juanca/QA/Módulos/Carga_14.0/',
         '15.0': '/home/juanca/QA/Módulos/Carga_15.0/',
         '16.0': '/home/juanca/QA/Módulos/Carga_16.0/',
