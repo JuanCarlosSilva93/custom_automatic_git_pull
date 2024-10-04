@@ -40,7 +40,7 @@ def updating_modules_from_github():
                         content = open_file.read()
                     new_version = ast.literal_eval(content).get('version')
                     updated_modules.append('\n' + file + ': ' + old_version + ' ----> ' + new_version)
-                    updated_modules_view.append(file + ': ' + new_version)
+                    updated_modules_view.append(file + ': ' + new_version + '\n')
                     print(f'Cambios detectados: {file}')
                 else:
                     unchanged_modules.append('\n' + file + ': ' + old_version)
